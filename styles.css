@@ -1,0 +1,34 @@
+body {
+	background-color: #333;
+	background-image: url("img/rooftop.jpg");
+	background-position: center;
+	background-size: 100% 100%;
+
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
+input[type=number] {
+	text-align: center;
+}
+
+.btn-plus, .btn-minus {
+	color: #fff;
+	background-color: #333;
+}
+.btn-plus:hover, .btn-minus:hover {
+	background-color: #999;
+
+}
+.btn-plus:active, .btn-minus:active {
+	transform: scale(1.1);
+}
+
+hr {
+	border-color: #fff;
+	height: 2px;
+}
+
+#manaDiv img {
+	margin-right: -8px;
+}
