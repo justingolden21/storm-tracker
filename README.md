@@ -8,7 +8,7 @@ Track mana, storm count, and more for MTG storm decks
 
 - Add w, g, b mana tracking
 
-- Edit backgorund pics
+Images:
 
 - Fix text on grapeshot background
 
@@ -17,4 +17,3 @@ Track mana, storm count, and more for MTG storm decks
 - Find more images?
 
 - Remove non-storm images? Maybe...
-
