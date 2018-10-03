@@ -1,8 +1,8 @@
 $(function() {
 
 	//random background
-	// let imgNames = ['empty'];
-	let imgNames = ['tarn','rooftop','vents','visions', 'shot', 'empty'];
+	// let imgNames = [''];
+	let imgNames = ['tarn','rooftop','vents','visions', 'shot', 'empty', 'seething', 'ascension', 'pyretic', 'desperate', 'past', 'gifts', 'baral', 'electromancer', 'confusion', 'probe', 'brain'];
 	$('body').css('background-image', 'url("img/' + imgNames[Math.floor(Math.random()*imgNames.length)] + '.jpg")');
 
 	$('.btn-minus').on('click', function() {
