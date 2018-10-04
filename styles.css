@@ -35,7 +35,8 @@ label, #infoDiv {
 }
 
 kbd {
-	background-color: #333;
+	background-color: #fff;
+	color: #333;
 }
 
 #stormInput {

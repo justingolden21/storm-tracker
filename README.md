@@ -10,10 +10,8 @@ Track mana, storm count, and more for MTG storm decks
 
 Images:
 
-- Fix text on grapeshot background
-
 - Crop/edit images better for wallpapers
 
 - Find more images?
 
-- Remove non-storm images? Maybe...
+- Use non-storm images?
