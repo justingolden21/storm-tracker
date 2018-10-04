@@ -88,6 +88,10 @@ input[type=number], textarea {
 	transform: scale(1.1);
 }
 
+.btn-bottom {
+	margin: 5px;
+}
+
 hr {
 	border-color: #fff;
 	height: 2px;
