@@ -29,19 +29,19 @@ $(function() {
 
 function drawMana() {
 	$('#manaDiv').html('');
-	for(let i=0; i<$('#blueInput').val(); i++) {
+	for(let i=0; i<Math.min($('#blueInput').val(),100); i++) {
 		$('#manaDiv').append('<img width="32px" src="img/blue.svg">');
 	}
-	for(let i=0; i<$('#redInput').val(); i++) {
+	for(let i=0; i<Math.min($('#redInput').val(),100); i++) {
 		$('#manaDiv').append('<img width="32px" src="img/red.svg">');
 	}
-	for(let i=0; i<$('#colorlessInput').val(); i++) {
+	for(let i=0; i<Math.min($('#colorlessInput').val(),100); i++) {
 		$('#manaDiv').append('<img width="32px" src="img/colorless.svg">');
 	}
 }
 function drawStorm() {
 	$('#stormDiv').html('');
-	for(let i=0; i<$('#stormInput').val(); i++) {
+	for(let i=0; i<Math.min($('#stormInput').val(),100); i++) {
 		$('#stormDiv').append('<img width="32px" src="img/energy.svg">');
 	}
 }

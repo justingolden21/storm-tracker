@@ -1,11 +1,30 @@
+/*mana blue: #AAE0FA
+mana red: #F9AA8F*/
+
 body {
 	background-color: #333;
-	background-image: url("img/rooftop.jpg");
+	/*background-image: url("img/rooftop.jpg");*/
 	background-position: center;
-	background-size: 100% 100%;
+	background-size: cover;
 
 	background-repeat: no-repeat;
 	color: #fff;
+}
+
+::-moz-selection {
+  background: #ccc;
+}
+::selection {
+  background: #ccc;
+}
+
+img,br {
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 label, #infoDiv {
@@ -19,7 +38,12 @@ kbd {
 	background-color: #333;
 }
 
-input[type=number] {
+#stormInput {
+	background-color: #333;
+	color: #fff;
+}
+
+input[type=number], textarea {
 	text-align: center;
 }
 
