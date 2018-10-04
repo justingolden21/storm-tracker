@@ -1,0 +1,15 @@
+TODO
+
+additions
+Edit icons and metadata with https://realfavicongenerator.net/
+Google analytics
+Credit fontawesome and bootstrap in readme?
+
+Background Images:
+Crop/edit images better for wallpapers
+Find more images?
+Use non-storm images?
+
+Options:
+Option to turn off draw mana? (caps at 100 anyway)
+Add decktracking? Links to decklists? Common card rulings/questions for storm?

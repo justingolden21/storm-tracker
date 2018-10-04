@@ -24,22 +24,6 @@ A tracker for MTG Storm decks. Track mana, storm count, and more on the go, with
 
 <hr>
 
-### To Do
-
-<img src="img/planeswalker-black.png" width="24px"> Edit icons and metadata with https://realfavicongenerator.net/
-
-Background Images:
-
-<img src="img/planeswalker-black.png" width="24px"> Crop/edit images better for wallpapers
-
-<img src="img/planeswalker-black.png" width="24px"> Find more images?
-
-<img src="img/planeswalker-black.png" width="24px"> Use non-storm images?
-
-Options:
-
-<img src="img/planeswalker-black.png" width="24px"> Option to turn off draw mana? (caps at 100 anyway)
-
 ### About
 
 Feel free to recomend any images from MTG art you'd like to see as backdrops by either adding an "issue" or emailing me 😃
