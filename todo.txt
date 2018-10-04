@@ -14,6 +14,8 @@ Add decktracking? Links to decklists? Common card rulings/questions for storm?
 add option for poison counters? energy? commander damage? number of tapped and untapped 1/1 goblins?
 clear notes, download/upload notes?
 add donate button? add donate link readme?
+add specific cards/card presets? add macros for adding and subtracting mana, storm count, life...
+
 
 Backdrops:
 Crop/edit images better for wallpapers

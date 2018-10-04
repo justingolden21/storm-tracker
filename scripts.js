@@ -41,7 +41,7 @@ function drawMana() {
 function drawStorm() {
 	// $('#stormDiv').html('');
 	// for(let i=0; i<Math.min($('#stormInput').val(),100); i++) {
-	// 	$('#stormDiv').append('<img width="48px" src="img/tempest.png">');
+	// 	$('#stormDiv').append('<img width="32px" src="img/tempest.png">');
 	// }
 }
 
