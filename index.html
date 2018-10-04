@@ -12,9 +12,9 @@
 
 <link rel="icon" href="img/izzet.png" type="image/png">
 
-<meta id="theme1" name="theme-color" content="#fff">
-<meta id="theme2" name="msapplication-navbutton-color" content="#fff">
-<meta id="theme3" name="apple-mobile-web-app-status-bar-style" content="#fff">
+<meta id="theme1" name="theme-color" content="#333">
+<meta id="theme2" name="msapplication-navbutton-color" content="#333">
+<meta id="theme3" name="apple-mobile-web-app-status-bar-style" content="#333">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -32,15 +32,15 @@
 <h3>STORM TRACKER</h3>
 
 <div id="stormDiv"></div>
-<br>
-<br>
+
+
 
 <!-- TODO: icons, pretty image(s) -->
 
 <div class="row">
 <div class="col-sm-6">
 
-Your Life:
+<label>Your Life:</label>
 <div class="input-group">
 	<div class="input-append">
 		<img src="img/planeswalker.png" width="32px">&nbsp;
@@ -55,7 +55,7 @@ Your Life:
 </div>
 <div class="col-sm-6">
 
-Opponent Life:
+<label>Opponent Life:</label>
 <div class="input-group">
 	<div class="input-append">
 		<img src="img/planeswalker.png" width="32px">&nbsp;
@@ -71,7 +71,7 @@ Opponent Life:
 </div>
 
 
-Storm Count:
+<label>Storm Count:</label>
 <div class="input-group">
 	<div class="input-append">
 		<img src="img/blue-red.svg" width="32px">&nbsp;
@@ -83,7 +83,7 @@ Storm Count:
 	</div>
 </div>
 
-Blue Mana:
+<label>Blue Mana:</label>
 <div class="input-group">
 	<div class="input-append">
 		<img src="img/blue.svg" width="32px">&nbsp;
@@ -95,7 +95,7 @@ Blue Mana:
 	</div>
 </div>
 
-Red Mana:
+<label>Red Mana:</label>
 <div class="input-group">
 	<div class="input-append">
 		<img src="img/red.svg" width="32px">&nbsp;
@@ -108,7 +108,7 @@ Red Mana:
 </div>
 
 
-Colorless Mana:
+<label>Colorless Mana:</label>
 <div class="input-group">
 	<div class="input-append">
 		<img src="img/colorless.svg" width="32px">&nbsp;
@@ -120,26 +120,25 @@ Colorless Mana:
 	</div>
 </div>
 
-Notes:
+<label>Notes:</label>
 <textarea class="form-control"></textarea>
 
-Mana:
+<label>Mana:</label>
 <div id="manaDiv"></div>
 
 <br>
 <button class="btn btn-lg" onclick="$('input:not(.life-input)').val('0');"><img src="img/tap.svg" width="32px"> Drain</button>
 <button class="btn btn-lg" onclick="window.location.reload();"><img src="img/untap.svg" width="32px"> Refresh</button>
 <hr>
+<div id="infoDiv">
 <p>Use <kbd>Tab</kbd> and <kbd>Shift</kbd>+<kbd>Tab</kbd> to navigate inputs.</p>
 <p>Drain button clears storm count and mana.</p>
 <p>Refresh button clears all.</p>
 <hr>
 <p>Images and symbols &copy; Wizards of the Coast</p>
-
 </div>
 
-
-
+</div>
 
 
 </body>
