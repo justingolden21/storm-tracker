@@ -1,7 +1,8 @@
 TODO
 
-additions
-Edit icons and metadata with https://realfavicongenerator.net/
+Additions
+Update Readme screenshots
+Edit icons and metadata with https://realfavicongenerator.net
 Google analytics
 Credit fontawesome and bootstrap in readme?
 
