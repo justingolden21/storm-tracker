@@ -18,6 +18,12 @@ Track mana, storm count, and more for MTG storm decks
 
 **<img src="img/planeswalker-black.png" width="24px"> UI designed to work well on mobile too**
 
+<img src="img/screenshot1.jpg">
+
+<img src="img/screenshot2.jpg">
+
+<hr>
+
 ### To Do
 
 Background Images:
@@ -33,6 +39,8 @@ Options:
 <img src="img/planeswalker-black.png" width="24px"> Option to turn off draw mana? (caps at 100 anyway)
 
 ### About
+
+Feel free to recomend any images from MTG art you'd like to see as backdrops by either adding an "issue" or emailing me 😃
 
 <img src="img/planeswalker-black.png" width="24px"> By Justin Golden
 
