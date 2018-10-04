@@ -30,7 +30,7 @@ Feel free to recomend any images from MTG art you'd like to see as backdrops by 
 
 <img src="img/planeswalker-black.png" width="24px"> By Justin Golden
 
-<img src="img/planeswalker-black.png" width="24px"> Email me:  mailto:justingolden@rgbstudios.org
+<img src="img/planeswalker-black.png" width="24px"> Email me: justingolden@rgbstudios.org
 
 <img src="img/planeswalker-black.png" width="24px"> My website: https://justingolden21.github.io
 
