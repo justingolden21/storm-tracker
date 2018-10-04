@@ -1,4 +1,4 @@
-# Storm Tracker
+# Storm Tracker <img src="img/tempest.svg" width="48px">
 
 https://justingolden21.github.io/storm-tracker/
 
