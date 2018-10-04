@@ -1,23 +1,21 @@
 TODO
 
-Additions:
-Update Readme screenshots
-Edit icons and metadata with https://realfavicongenerator.net
+update readme screenshots
 
 --------------------------------
 MAYBE TODO
 
-Add drawing icons back? make it an option?
-Move input icons to input label?
-Credit fontawesome and bootstrap in readme?
-Add decktracking? Links to decklists? Common card rulings/questions for storm?
+add drawing icons back? make it an option?
+move input icons to input label?
+credit fontawesome and bootstrap in readme, as well as realfavicongenerator and sharethis?
+
+add decktracking? Links to decklists? Common card rulings/questions for storm?
+add specific cards/card presets? add macros for adding and subtracting mana, storm count, life...
 add option for poison counters? energy? commander damage? number of tapped and untapped 1/1 goblins?
 clear notes, download/upload notes?
 add donate button? add donate link readme?
-add specific cards/card presets? add macros for adding and subtracting mana, storm count, life...
-
 
 Backdrops:
-Crop/edit images better for wallpapers
-Find more images?
-Use non-storm images?
+crop/edit images better for wallpapers
+find more images?
+use non-storm images?
