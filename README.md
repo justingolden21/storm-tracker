@@ -26,6 +26,8 @@ Track mana, storm count, and more for MTG storm decks
 
 ### To Do
 
+<img src="img/planeswalker-black.png" width="24px"> Edit icons and metadata with https://realfavicongenerator.net/
+
 Background Images:
 
 <img src="img/planeswalker-black.png" width="24px"> Crop/edit images better for wallpapers
