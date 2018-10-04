@@ -93,6 +93,6 @@ hr {
 	height: 2px;
 }
 
-#manaDiv img {
+#manaDiv img, #stormDiv img {
 	margin-right: -8px;
 }
