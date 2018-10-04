@@ -5,6 +5,7 @@ Update Readme screenshots
 Edit icons and metadata with https://realfavicongenerator.net
 Google analytics
 Credit fontawesome and bootstrap in readme?
+More mana details/summary into a checkbox/toggle that shows all 6 mana in same place?
 
 Background Images:
 Crop/edit images better for wallpapers
