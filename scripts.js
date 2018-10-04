@@ -28,20 +28,20 @@ $(function() {
 });
 
 function drawMana() {
-	$('#manaDiv').html('');
+	// $('#manaDiv').html('');
 
-	let colorNames = 'white blue black red green colorless'.split(' ');
-	for(let i=0; i<colorNames.length; i++) {
-		for(let j=0; j<Math.min($('#'+colorNames[i]+'Input').val(),100); j++) {
-			$('#manaDiv').append('<img width="32px" src="img/'+colorNames[i]+'.svg">');
-		}
-	}
+	// let colorNames = 'white blue black red green colorless'.split(' ');
+	// for(let i=0; i<colorNames.length; i++) {
+	// 	for(let j=0; j<Math.min($('#'+colorNames[i]+'Input').val(),100); j++) {
+	// 		$('#manaDiv').append('<img width="32px" src="img/'+colorNames[i]+'.svg">');
+	// 	}
+	// }
 }
 function drawStorm() {
-	$('#stormDiv').html('');
-	for(let i=0; i<Math.min($('#stormInput').val(),100); i++) {
-		$('#stormDiv').append('<img width="32px" src="img/energy.svg">');
-	}
+	// $('#stormDiv').html('');
+	// for(let i=0; i<Math.min($('#stormInput').val(),100); i++) {
+	// 	$('#stormDiv').append('<img width="32px" src="img/energy.svg">');
+	// }
 }
 
 
