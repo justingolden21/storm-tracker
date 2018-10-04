@@ -107,7 +107,6 @@
 	</div>
 </div>
 
-
 <label>Colorless Mana:</label>
 <div class="input-group">
 	<div class="input-append">
@@ -124,6 +123,8 @@
 <textarea class="form-control" rows="5" placeholder="Type notes here..."></textarea>
 
 <details><summary>More Mana:</summary>
+<div class="row">
+<div class="col-md-4">
 <label>White Mana:</label>
 <div class="input-group">
 	<div class="input-append">
@@ -135,6 +136,8 @@
 		<button tabindex="-1" class="btn btn-plus"><i class="fas fa-plus"></i></button>
 	</div>
 </div>
+</div>
+<div class="col-md-4">
 <label>Black Mana:</label>
 <div class="input-group">
 	<div class="input-append">
@@ -146,6 +149,8 @@
 		<button tabindex="-1" class="btn btn-plus"><i class="fas fa-plus"></i></button>
 	</div>
 </div>
+</div>
+<div class="col-md-4">
 <label>Green Mana:</label>
 <div class="input-group">
 	<div class="input-append">
@@ -157,6 +162,8 @@
 		<button tabindex="-1" class="btn btn-plus"><i class="fas fa-plus"></i></button>
 	</div>
 </div>
+</div>
+</div>
 </details>
 
 <br>
@@ -164,11 +171,9 @@
 <div id="manaDiv"></div>
 
 <br>
-<button class="btn btn-lg" onclick="$('input:not(.life-input)').val('0');"><img src="img/tap.svg" width="32px"> Drain</button>
-<button class="btn btn-lg" onclick="window.location.reload();"><img src="img/untap.svg" width="32px"> Refresh</button>
-<button type="button" class="btn btn-lg" data-toggle="modal" data-target="#infoModal" title="About Storm Tracker">
-  <i class="fas fa-info-circle"></i> Info
-</button>
+<button class="btn btn-lg" onclick="$('input:not(.life-input)').val('0');"><img src="img/tap.svg" width="24px"> Drain</button>
+<button class="btn btn-lg" onclick="window.location.reload();"><img src="img/untap.svg" width="24px"> Refresh</button>
+<button class="btn btn-lg" data-toggle="modal" data-target="#infoModal" title="About Storm Tracker"><i class="fas fa-info-circle"></i> Info</button>
 
 
 <div class="modal fade" id="infoModal">
@@ -183,18 +188,23 @@
 				<p>Or use the arrow keys ( <kbd><i class="fas fa-arrow-up"></i></kbd> <kbd><i class="fas fa-arrow-down"></i></kbd> ) to increase or decrease the values.</p>
 				<p>Drain button clears storm count and mana.</p>
 				<p>Refresh button clears all.</p>
-
+			</div>
+			<div class="modal-footer">
+				<button title="Email me at justingolden@rgbstudios.org" onclick="window.open('mailto:justingolden@rgbstudios.org','_blank');" class="btn btn-default">Email me <i class="fas fa-envelope"></i></button>
+				<button title="View repo on Github" onclick="window.open('https://github.com/justingolden21/storm-tracker','_blank');" class="btn btn-default">View on GitHub <i class="fab fa-github"></i></button>
+				<button class="btn btn-default" title="Toggle fullscreen" onclick="toggleFullscreen();">
+				Fullscreen <i class="fas fa-arrows-alt"></i></button>
+<!-- 				<button title="Donate on PayPal" onclick="window.open('https://www.paypal.me/RGBStudios','_blank');" class="btn btn-default">
+				Donate <i class="fas fa-donate"></i></button> -->
 			</div>
 		</div>
 	</div>
 </div>
 
 <hr>
-<p>Images and symbols &copy; Wizards of the Coast</p>
-
+<p><label>Images and symbols &copy; Wizards of the Coast</label></p>
 
 </div>
-
 
 </body>
 </html>
