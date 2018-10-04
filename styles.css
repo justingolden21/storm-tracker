@@ -27,16 +27,32 @@ img,br {
   -ms-user-select: none;
 }
 
-label, #infoDiv {
+label, summary {
 	background-color: rgba(51,51,51,.75);
 	padding: 5px;
 	margin: 5px;
 	border-radius: 5px;
 }
 
+summary {
+	margin-top: 10px;
+}
+
+.modal-content {
+	background-color: #333;
+}
+.close, .close:hover, .close:focus {
+	color: #fff;
+	text-shadow: 0px 0px 0px #fff !important;
+}
+
 kbd {
 	background-color: #fff;
 	color: #333;
+}
+
+input:focus, textarea:focus, button:focus, summary:focus {
+	outline: 5px solid #666 !important;
 }
 
 #stormInput {
@@ -54,7 +70,6 @@ input[type=number], textarea {
 }
 .btn-plus:hover, .btn-minus:hover {
 	background-color: #999;
-
 }
 .btn-plus:active, .btn-minus:active {
 	transform: scale(1.1);

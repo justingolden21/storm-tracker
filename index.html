@@ -29,7 +29,7 @@
 
 <div class="container text-center">
 
-<h3>STORM TRACKER</h3>
+<br><h3>STORM TRACKER</h3>
 
 <div id="stormDiv"></div>
 
@@ -123,6 +123,42 @@
 <label>Notes:</label>
 <textarea class="form-control" rows="5" placeholder="Type notes here..."></textarea>
 
+<details><summary>More Mana:</summary>
+<label>White Mana:</label>
+<div class="input-group">
+	<div class="input-append">
+		<img src="img/white.svg" width="32px">&nbsp;
+		<button tabindex="-1" class="btn btn-minus"><i class="fas fa-minus"></i></button>
+	</div>
+	<input id="whiteInput" type="number" class="form-control" value="0">
+	<div class="input-append">
+		<button tabindex="-1" class="btn btn-plus"><i class="fas fa-plus"></i></button>
+	</div>
+</div>
+<label>Black Mana:</label>
+<div class="input-group">
+	<div class="input-append">
+		<img src="img/black.svg" width="32px">&nbsp;
+		<button tabindex="-1" class="btn btn-minus"><i class="fas fa-minus"></i></button>
+	</div>
+	<input id="blackInput" type="number" class="form-control" value="0">
+	<div class="input-append">
+		<button tabindex="-1" class="btn btn-plus"><i class="fas fa-plus"></i></button>
+	</div>
+</div>
+<label>Green Mana:</label>
+<div class="input-group">
+	<div class="input-append">
+		<img src="img/green.svg" width="32px">&nbsp;
+		<button tabindex="-1" class="btn btn-minus"><i class="fas fa-minus"></i></button>
+	</div>
+	<input id="greenInput" type="number" class="form-control" value="0">
+	<div class="input-append">
+		<button tabindex="-1" class="btn btn-plus"><i class="fas fa-plus"></i></button>
+	</div>
+</div>
+</details>
+
 <br>
 <!-- <label>Mana:</label> -->
 <div id="manaDiv"></div>
@@ -130,15 +166,32 @@
 <br>
 <button class="btn btn-lg" onclick="$('input:not(.life-input)').val('0');"><img src="img/tap.svg" width="32px"> Drain</button>
 <button class="btn btn-lg" onclick="window.location.reload();"><img src="img/untap.svg" width="32px"> Refresh</button>
-<hr>
-<div id="infoDiv">
-<p>Use <kbd>Tab</kbd> and <kbd>Shift</kbd>+<kbd>Tab</kbd> to navigate inputs.</p>
-<p>Or use the arrow keys to increase or decrease the values (<kbd><i class="fas fa-arrow-up"></i></kbd> <kbd><i class="fas fa-arrow-down"></i></kbd>.</p>
-<p>Drain button clears storm count and mana.</p>
-<p>Refresh button clears all.</p>
+<button type="button" class="btn btn-lg" data-toggle="modal" data-target="#infoModal" title="About Storm Tracker">
+  <i class="fas fa-info-circle"></i> Info
+</button>
+
+
+<div class="modal fade" id="infoModal">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title"><i class="fas fa-info"></i> Info</h4>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<div class="modal-body">
+				<p>Use <kbd>Tab</kbd> and <kbd>Shift</kbd>+<kbd>Tab</kbd> to navigate inputs.</p>
+				<p>Or use the arrow keys ( <kbd><i class="fas fa-arrow-up"></i></kbd> <kbd><i class="fas fa-arrow-down"></i></kbd> ) to increase or decrease the values.</p>
+				<p>Drain button clears storm count and mana.</p>
+				<p>Refresh button clears all.</p>
+
+			</div>
+		</div>
+	</div>
+</div>
+
 <hr>
 <p>Images and symbols &copy; Wizards of the Coast</p>
-</div>
+
 
 </div>
 

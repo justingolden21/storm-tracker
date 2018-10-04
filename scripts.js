@@ -29,14 +29,12 @@ $(function() {
 
 function drawMana() {
 	$('#manaDiv').html('');
-	for(let i=0; i<Math.min($('#blueInput').val(),100); i++) {
-		$('#manaDiv').append('<img width="32px" src="img/blue.svg">');
-	}
-	for(let i=0; i<Math.min($('#redInput').val(),100); i++) {
-		$('#manaDiv').append('<img width="32px" src="img/red.svg">');
-	}
-	for(let i=0; i<Math.min($('#colorlessInput').val(),100); i++) {
-		$('#manaDiv').append('<img width="32px" src="img/colorless.svg">');
+
+	let colorNames = 'white blue black red green colorless'.split(' ');
+	for(let i=0; i<colorNames.length; i++) {
+		for(let j=0; j<Math.min($('#'+colorNames[i]+'Input').val(),100); j++) {
+			$('#manaDiv').append('<img width="32px" src="img/'+colorNames[i]+'.svg">');
+		}
 	}
 }
 function drawStorm() {
