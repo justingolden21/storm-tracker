@@ -18,9 +18,9 @@ A tracker for MTG Storm decks. Track mana, storm count, and more on the go, with
 
 **<img src="img/planeswalker-black.png" width="24px"> UI designed to work well on mobile too**
 
-<img src="img/screenshot1.jpg">
+<img src="img/screenshot3.jpg">
 
-<img src="img/screenshot2.jpg">
+<img src="img/screenshot4.jpg">
 
 <hr>
 

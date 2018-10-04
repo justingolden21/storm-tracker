@@ -1,6 +1,6 @@
 TODO
 
-update readme screenshots
+custom scrollbar?
 
 --------------------------------
 MAYBE TODO
