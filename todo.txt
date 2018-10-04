@@ -3,8 +3,6 @@ TODO
 Additions:
 Update Readme screenshots
 Edit icons and metadata with https://realfavicongenerator.net
-Google analytics
-More mana details/summary into a checkbox/toggle that shows all 6 mana in same place?
 
 --------------------------------
 MAYBE TODO
@@ -13,7 +11,7 @@ Add drawing icons back? make it an option?
 Move input icons to input label?
 Credit fontawesome and bootstrap in readme?
 Add decktracking? Links to decklists? Common card rulings/questions for storm?
-add option for phyrexian mana? energy? commander damage? number of tapped and untapped 1/1 goblins?
+add option for poison counters? energy? commander damage? number of tapped and untapped 1/1 goblins?
 clear notes, download/upload notes?
 add donate button? add donate link readme?
 
