@@ -13,6 +13,9 @@ Add drawing icons back? make it an option?
 Move input icons to input label?
 Credit fontawesome and bootstrap in readme?
 Add decktracking? Links to decklists? Common card rulings/questions for storm?
+add option for phyrexian mana? energy? commander damage? number of tapped and untapped 1/1 goblins?
+clear notes, download/upload notes?
+add donate button? add donate link readme?
 
 Backdrops:
 Crop/edit images better for wallpapers

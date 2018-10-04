@@ -75,6 +75,7 @@ input:focus, textarea:focus, button:focus, summary:focus {
 
 input[type=number], textarea {
 	text-align: center;
+	font-weight: 600;
 }
 
 .btn-plus, .btn-minus {
