@@ -8,7 +8,8 @@ $(function() {
 
 	$('.btn-minus').on('click', function() {
 		let input = $(this).parent().parent().children('input[type=number]');
-		input.val(parseInt(input.val() )-1 );
+		if(input.val()>0 || input.hasClass('life-input') )
+			input.val(parseInt(input.val() )-1 );
 	});
 	$('.btn-plus').on('click', function() {
 		let input = $(this).parent().parent().children('input[type=number]');
@@ -40,7 +41,7 @@ function drawMana() {
 function drawStorm() {
 	// $('#stormDiv').html('');
 	// for(let i=0; i<Math.min($('#stormInput').val(),100); i++) {
-	// 	$('#stormDiv').append('<img width="32px" src="img/energy.svg">');
+	// 	$('#stormDiv').append('<img width="48px" src="img/tempest.png">');
 	// }
 }
 
