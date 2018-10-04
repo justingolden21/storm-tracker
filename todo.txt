@@ -1,17 +1,20 @@
 TODO
 
-Additions
+Additions:
 Update Readme screenshots
 Edit icons and metadata with https://realfavicongenerator.net
 Google analytics
-Credit fontawesome and bootstrap in readme?
 More mana details/summary into a checkbox/toggle that shows all 6 mana in same place?
 
-Background Images:
+--------------------------------
+MAYBE TODO
+
+Add drawing icons back? make it an option?
+Move input icons to input label?
+Credit fontawesome and bootstrap in readme?
+Add decktracking? Links to decklists? Common card rulings/questions for storm?
+
+Backdrops:
 Crop/edit images better for wallpapers
 Find more images?
 Use non-storm images?
-
-Options:
-Option to turn off draw mana? (caps at 100 anyway)
-Add decktracking? Links to decklists? Common card rulings/questions for storm?
