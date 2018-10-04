@@ -6,26 +6,26 @@ Track mana, storm count, and more for MTG storm decks
 
 ### Features
 
-- Track life totals, mana, and storm count
+<img src="img/planeswalker-black.png" width="24px"> Track life totals, mana, and storm count
 
-- A beautiful random backdrop with beautiful mtg art
+<img src="img/planeswalker-black.png" width="24px"> A beautiful random backdrop with beautiful mtg art
 
-- A Drain button to empty mana and storm count, and a Refresh button to reload the page
+<img src="img/planeswalker-black.png" width="24px"> A Drain button to empty mana and storm count, and a Refresh button to reload the page
 
-- Dynamic displays of your mana pool and storm count
+<img src="img/planeswalker-black.png" width="24px"> Dynamic displays of your mana pool and storm count
 
 ### To Do:
 
-- Move info to info modal
+<img src="img/planeswalker-black.png" width="24px"> Move info to info modal
 
 Background Images:
 
-- Crop/edit images better for wallpapers
+<img src="img/planeswalker-black.png" width="24px"> Crop/edit images better for wallpapers
 
-- Find more images?
+<img src="img/planeswalker-black.png" width="24px"> Find more images?
 
-- Use non-storm images?
+<img src="img/planeswalker-black.png" width="24px"> Use non-storm images?
 
 Options:
 
-- Option to turn off draw mana? (caps at 100 anyway)
+<img src="img/planeswalker-black.png" width="24px"> Option to turn off draw mana? (caps at 100 anyway)
