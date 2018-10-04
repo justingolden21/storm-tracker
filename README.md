@@ -2,7 +2,7 @@
 
 https://justingolden21.github.io/storm-tracker/
 
-Track mana, storm count, and more for MTG storm decks
+A tracker for MTG Storm decks. Track mana, storm count, and more on the go, without dice or counters.
 
 ### Features
 
