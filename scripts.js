@@ -1,9 +1,8 @@
 $(function() {
 
 	//random background
-	// let imgNames = ['brain'];
 	// let imgNames = ['tarn','rooftop','vents','visions', 'shot', 'empty', 'seething', 'ascension', 'pyretic', 'desperate', 'past', 'gifts', 'baral', 'electromancer', 'confusion', 'probe', 'brain'];
-	let imgNames = ['tarn','visions', 'seething', 'ascension', 'pyretic', 'past', 'electromancer', 'probe', 'brain'];
+	let imgNames = ['tarn', 'visions', 'seething', 'ascension', 'pyretic', 'past', 'electromancer', 'probe', 'brain'];
 	$('body').css('background-image', 'url("img/' + imgNames[Math.floor(Math.random()*imgNames.length)] + '.jpg")');
 
 	$('.btn-minus').on('click', function() {
@@ -17,6 +16,7 @@ $(function() {
 	});
 
 	//easy solution to dealing with inputs, increment, decrement, and clear buttons
+	//as well as checkboxes for drawing 
 	$('body').on('click', function() {
 		drawMana();
 		drawStorm();
@@ -26,6 +26,7 @@ $(function() {
 		drawStorm();
 	});
 
+	//mana checkboxes
 	$('#whiteCheckbox').on('change', function() {
 		$('#whiteMana').css('display',$(this).prop('checked')?'':'none');
 	});
@@ -45,25 +46,28 @@ $(function() {
 		$('#colorlessMana').css('display',$(this).prop('checked')?'':'none');
 	});
 
-
-
 });
 
 function drawMana() {
-	// $('#manaDiv').html('');
-
-	// let colorNames = 'white blue black red green colorless'.split(' ');
-	// for(let i=0; i<colorNames.length; i++) {
-	// 	for(let j=0; j<Math.min($('#'+colorNames[i]+'Input').val(),100); j++) {
-	// 		$('#manaDiv').append('<img width="32px" src="img/'+colorNames[i]+'.svg">');
-	// 	}
-	// }
+	$('#manaDiv').html('');
+	if(! $('#manaCheckbox').prop('checked') ) {
+		return;
+	}
+	let colorNames = 'white blue black red green colorless'.split(' ');
+	for(let i=0; i<colorNames.length; i++) {
+		for(let j=0; j<Math.min($('#'+colorNames[i]+'Input').val(),100); j++) {
+			$('#manaDiv').append('<img width="32px" src="img/'+colorNames[i]+'.svg">');
+		}
+	}
 }
 function drawStorm() {
-	// $('#stormDiv').html('');
-	// for(let i=0; i<Math.min($('#stormInput').val(),100); i++) {
-	// 	$('#stormDiv').append('<img width="32px" src="img/tempest.png">');
-	// }
+	$('#stormDiv').html('');
+	if(! $('#stormCheckbox').prop('checked') ) {
+		return;
+	}
+	for(let i=0; i<Math.min($('#stormInput').val(),100); i++) {
+		$('#stormDiv').append('<img width="32px" src="img/tempest.png">');
+	}
 }
 
 
