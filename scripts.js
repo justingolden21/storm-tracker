@@ -26,6 +26,27 @@ $(function() {
 		drawStorm();
 	});
 
+	$('#whiteCheckbox').on('change', function() {
+		$('#whiteMana').css('display',$(this).prop('checked')?'':'none');
+	});
+	$('#blueCheckbox').on('change', function() {
+		$('#blueMana').css('display',$(this).prop('checked')?'':'none');
+	});
+	$('#blackCheckbox').on('change', function() {
+		$('#blackMana').css('display',$(this).prop('checked')?'':'none');
+	});
+	$('#redCheckbox').on('change', function() {
+		$('#redMana').css('display',$(this).prop('checked')?'':'none');
+	});
+	$('#greenCheckbox').on('change', function() {
+		$('#greenMana').css('display',$(this).prop('checked')?'':'none');
+	});
+	$('#colorlessCheckbox').on('change', function() {
+		$('#colorlessMana').css('display',$(this).prop('checked')?'':'none');
+	});
+
+
+
 });
 
 function drawMana() {

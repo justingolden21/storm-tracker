@@ -34,7 +34,7 @@ body {
   background: #ccc;
 }
 
-img,br {
+img, br, .checkLabel {
   user-drag: none; 
   user-select: none;
   -moz-user-select: none;
@@ -103,4 +103,9 @@ hr {
 
 #manaDiv img, #stormDiv img {
 	margin-right: -8px;
+}
+
+input[type=checkbox] {
+	 transform:scale(2, 2);
+	 margin-right: 20px;
 }

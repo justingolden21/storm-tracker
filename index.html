@@ -100,7 +100,7 @@
 
 <div class="row">
 
-<div class="col-md-4 col-sm-6">
+<div id="whiteMana" class="col-md-4 col-sm-6">
 <label>White Mana:</label>
 <div class="input-group">
 	<div class="input-append">
@@ -114,7 +114,7 @@
 </div>
 </div>
 
-<div class="col-md-4 col-sm-6">
+<div id="blueMana" class="col-md-4 col-sm-6">
 <label>Blue Mana:</label>
 <div class="input-group">
 	<div class="input-append">
@@ -128,7 +128,7 @@
 </div>
 </div>
 
-<div class="col-md-4 col-sm-6">
+<div id="blackMana" class="col-md-4 col-sm-6">
 <label>Black Mana:</label>
 <div class="input-group">
 	<div class="input-append">
@@ -142,7 +142,7 @@
 </div>
 </div>
 
-<div class="col-md-4 col-sm-6">
+<div id="redMana" class="col-md-4 col-sm-6">
 <label>Red Mana:</label>
 <div class="input-group">
 	<div class="input-append">
@@ -156,7 +156,7 @@
 </div>
 </div>
 
-<div class="col-md-4 col-sm-6">
+<div id="greenMana" class="col-md-4 col-sm-6">
 <label>Green Mana:</label>
 <div class="input-group">
 	<div class="input-append">
@@ -170,7 +170,7 @@
 </div>
 </div>
 
-<div class="col-md-4 col-sm-6">
+<div id="colorlessMana" class="col-md-4 col-sm-6">
 <label>Colorless Mana:</label>
 <div class="input-group">
 	<div class="input-append">
@@ -202,6 +202,7 @@
 <button class="btn btn-lg btn-bottom" onclick="$('input:not(.life-input)').val('0');"><img src="img/tap.svg" width="24px"> Drain</button>
 <button class="btn btn-lg btn-bottom" onclick="window.location.reload();"><img src="img/untap.svg" width="24px"> Refresh</button>
 <button class="btn btn-lg btn-bottom" data-toggle="modal" data-target="#infoModal" title="About Storm Tracker"><i class="fas fa-info-circle"></i> Info</button>
+<button class="btn btn-lg btn-bottom" data-toggle="modal" data-target="#settingsModal" title="Storm Tracker Settings"><i class="fas fa-cog"></i> Settings</button>
 
 <div class="modal fade" id="infoModal">
 	<div class="modal-dialog modal-lg">
@@ -228,8 +229,32 @@
 	</div>
 </div>
 
+<div class="modal fade" id="settingsModal">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title"><i class="fas fa-cog"></i> Settings</h4>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<div class="modal-body">
+				<label class="checkLabel"><input id="whiteCheckbox" checked type="checkbox">White Mana <img src="img/white.svg" width="32px"> </label>
+				<label class="checkLabel"><input id="blueCheckbox" checked type="checkbox">Blue Mana <img src="img/blue.svg" width="32px"> </label>
+				<label class="checkLabel"><input id="blackCheckbox" checked type="checkbox">Black Mana <img src="img/black.svg" width="32px"> </label>
+				<label class="checkLabel"><input id="redCheckbox" checked type="checkbox">Red Mana <img src="img/red.svg" width="32px"> </label>
+				<label class="checkLabel"><input id="greenCheckbox" checked type="checkbox">Green Mana <img src="img/green.svg" width="32px"> </label>
+				<label class="checkLabel"><input id="colorlessCheckbox" checked type="checkbox">Colorless Mana <img src="img/colorless.svg" width="32px"> </label>
+			</div>
+			<div class="modal-footer">
+			</div>
+		</div>
+	</div>
+</div>
+
+
 <br><br>
 <div class="sharethis-inline-share-buttons"></div>
+
+
 
 <hr>
 <p><label>Images and symbols &copy; Wizards of the Coast</label></p>
